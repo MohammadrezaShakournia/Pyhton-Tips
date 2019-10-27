@@ -1,0 +1,4 @@
+
+  # just show obejctive columns of a dataset
+
+	obj_df = df.select_dtypes(include=['object']).copy()

@@ -1,0 +1,1 @@
+en=Final.loc[Final['english'] == 1]

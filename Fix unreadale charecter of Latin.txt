@@ -1,0 +1,4 @@
+For unreadable charecter of latin language we can use iso-8859-1 unicode to fix them
+1-open file in notepad++
+2-encoding->utf-8
+2-encoding->charecter sets->western european->iso-8859-1

@@ -1,0 +1,17 @@
+Language = pd.Series([]) 
+for i in range(len(Final)): 
+    if Final["english"][i] == 1: 
+        Language[i]="English"
+  
+    elif Final["french"][i] == 1: 
+        Language[i]="French"
+  
+    elif Final["spanish"][i] == 1: 
+        Language[i]="Spanish"
+        
+    elif Final["german"][i] == 1: 
+        Language[i]="German"
+    else:
+            Language[i]= Final["german"][i] 
+    
+Final.insert(0, "Language",Language, True) 

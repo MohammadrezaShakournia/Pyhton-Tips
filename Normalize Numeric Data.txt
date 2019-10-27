@@ -1,0 +1,6 @@
+def normalization(column):
+    minmax_scale = preprocessing.MinMaxScaler().fit(df[[column]])
+    df_minmax = minmax_scale.transform(df[[column]])
+    df[column]=df_minmax
+
+=> normalization('longitude')<-- function

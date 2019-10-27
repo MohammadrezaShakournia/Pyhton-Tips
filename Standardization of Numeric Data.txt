@@ -1,0 +1,8 @@
+def Standardization(column):
+    std_scale = preprocessing.StandardScaler().fit(df[[column]])
+    df_std = std_scale.transform(df[[column]])
+    df[column]=df_std
+    print('Mean after standardization:\nlatitude={:.2f}'
+      .format(df_std.mean()))
+    print('\nStandard deviation after standardization:\nlatitude={:.2f}'
+      .format(df_std.std()))

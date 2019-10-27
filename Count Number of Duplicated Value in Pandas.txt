@@ -1,0 +1,1 @@
+s=df['neighbourhood_group'].value_counts()

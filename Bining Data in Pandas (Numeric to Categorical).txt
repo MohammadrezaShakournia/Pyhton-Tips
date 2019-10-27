@@ -1,0 +1,3 @@
+bins=np.linspace(min(df['Weight']),max(df['Weight']),4)
+group_name={'low','semi_heavy','Heavy'}
+df['Weight1']=pd.cut(df['Weight'],bins,labels=group_name,include_lowest=True)

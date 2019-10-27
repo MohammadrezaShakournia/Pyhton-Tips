@@ -1,0 +1,2 @@
+import string
+Loweres_texts=[''.join(x for x in par if x not in string.punctuation) for par in Loweres_texts]#remove punctuation from a list

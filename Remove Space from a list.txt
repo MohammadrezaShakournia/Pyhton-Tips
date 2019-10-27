@@ -1,0 +1,3 @@
+import string
+
+word_tokens=list(filter(str.strip, word_tokens))#remove space in a list

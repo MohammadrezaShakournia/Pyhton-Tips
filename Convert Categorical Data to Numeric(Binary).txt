@@ -1,0 +1,8 @@
+# to turn categorical values  to binary 
+
+	cat_to_bin=pd.get_dummies(df["room_type"]) 
+
+# To add dummies column to main dataset
+
+	df = pd.concat([df, cat_to_bin],axis=1)
+
